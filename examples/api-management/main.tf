@@ -76,3 +76,4 @@ resource "azurerm_api_management_product_group" "product_group" {
   product_id          = azurerm_api_management_product.product.product_id
   group_name          = azurerm_api_management_group.group.name
 }
+done
